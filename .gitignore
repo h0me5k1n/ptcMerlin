@@ -1,0 +1,7 @@
+.rtmcfg
+.quirecfg
+tag2mac_lookup
+*test*
+*.log
+*.txt
+
