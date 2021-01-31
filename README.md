@@ -21,10 +21,13 @@ Personally, I use this to disable streaming, online gaming and instant messaging
 # Usage
 You can manually trigger a check and block/unblock upon overdue tasks with
 * ptcmerlin [provider] process_overdue
+
 You can add a scheduled check using
 * ptcmerlin [provider] cru_add
+
 You can configure a cru entry to be added at startup using
 * ptcmerlin [provider] autostart_enabled
+
 just run "ptcmerlin" on it's own to see the other options
 
 # Detailed Information
