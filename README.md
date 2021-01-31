@@ -15,24 +15,21 @@ Personally, I use this to disable streaming, online gaming and instant messaging
 2. Get api keys from the provider
 3. Update the cfg file with the api key detail
 4. Update the tag2mac_lookup file with details of which tags relate to specific mac addresses - see the sample file for the format
-3. run the following and then follow the steps on screen
-
-`ptcmerlin [provider] authorise'
-
-4. (optional) run ptcmerlin [provider] checktoken
-5. (optional) run ptcmerlin [provider] check_overdue
+3. run the following and then follow the steps on screen **ptcmerlin.sh [provider] authorise**
+4. (optional) run **ptcmerlin.sh [provider] checktoken**
+5. (optional) run **ptcmerlin.sh [provider] check_overdue**
 
 # Usage
 You can manually trigger a check and block/unblock upon overdue tasks with
-* ptcmerlin [provider] process_overdue
+**ptcmerlin.sh [provider] process_overdue**
 
 You can add a scheduled check using
-* ptcmerlin [provider] cru_add
+**ptcmerlin.sh [provider] cru_add**
 
 You can configure a cru entry to be added at startup using
-* ptcmerlin [provider] autostart_enabled
+**ptcmerlin.sh [provider] autostart_enabled**
 
-just run "ptcmerlin" on it's own to see the other options
+just run **ptcmerlin.sh** on it's own to see the other options
 
 # Detailed Information
 * I have been using rtm solidly for a month (January 2021) but quire is relatively untested! The quire integration was written and tested as an alternative but never fully used to manage tasks and blocking in live task assignment and tracking.
