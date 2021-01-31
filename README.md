@@ -14,7 +14,10 @@ Personally, I use this to disable streaming, online gaming and instant messaging
 1. Clone the repo
 2. Get api keys from the provider
 3. Update the cfg file with the api key detail
-3. run ptcmerlin [provider] authorise - follow the steps on screen
+4. Update the tag2mac_lookup file with details of which tags relate to specific mac addresses - see the sample file for the format
+3. run the following and then follow the steps on screen
+`code(ptcmerlin [provider] authorise)'
+
 4. (optional) run ptcmerlin [provider] checktoken
 5. (optional) run ptcmerlin [provider] check_overdue
 
