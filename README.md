@@ -17,26 +17,40 @@ Personally, I use this to disable streaming, online gaming and instant messaging
 # Installation
 
 1. Run the following command 
-```wget -O - https://raw.githubusercontent.com/h0me5k1n/ptcMerlin/master/install.sh | sh```
+```
+wget -O - https://raw.githubusercontent.com/h0me5k1n/ptcMerlin/master/install.sh | sh
+```
 2. Get api keys from the provider
 3. Update the cfg file with the api key detail
 4. Update the tag2mac_lookup file with details of which tags relate to specific mac addresses - see the sample file for the format
-3. run the following and then follow the steps on screen 
-```ptcmerlin.sh [provider] authorize```
+3. run the following and then follow the steps on screen
+```
+ptcmerlin.sh [provider] authorize
+```
 4. (optional) run 
-```ptcmerlin.sh [provider] checktoken```
+```
+ptcmerlin.sh [provider] checktoken
+```
 5. (optional) run 
-```ptcmerlin.sh [provider] check_overdue```
+```
+ptcmerlin.sh [provider] check_overdue
+```
 
 # Usage
 You can manually trigger a check and block/unblock upon overdue tasks with
-```ptcmerlin.sh [provider] process_overdue```
+```
+ptcmerlin.sh [provider] process_overdue
+```
 
 You can add a scheduled check every 15 minutes using
-```ptcmerlin.sh [provider] cru_add```
+```
+ptcmerlin.sh [provider] cru_add
+```
 
 You can configure a cru entry to be added at startup using (to automatically configure the 15 minute check above after a restart)
-```ptcmerlin.sh [provider] autostart_enabled```
+```
+ptcmerlin.sh [provider] autostart_enabled
+```
 
 just run ```ptcmerlin.sh``` on it's own to see the other options
 
