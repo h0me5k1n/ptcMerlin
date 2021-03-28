@@ -16,13 +16,17 @@ Personally, I use this to disable streaming, online gaming and instant messaging
 
 # Installation
 
-1. Run the following command ```wget -O - https://raw.githubusercontent.com/h0me5k1n/ptcMerlin/master/install.sh | sh```
+1. Run the following command 
+```wget -O - https://raw.githubusercontent.com/h0me5k1n/ptcMerlin/master/install.sh | sh```
 2. Get api keys from the provider
 3. Update the cfg file with the api key detail
 4. Update the tag2mac_lookup file with details of which tags relate to specific mac addresses - see the sample file for the format
-3. run the following and then follow the steps on screen ```ptcmerlin.sh [provider] authorize```
-4. (optional) run ```ptcmerlin.sh [provider] checktoken```
-5. (optional) run ```ptcmerlin.sh [provider] check_overdue```
+3. run the following and then follow the steps on screen 
+```ptcmerlin.sh [provider] authorize```
+4. (optional) run 
+```ptcmerlin.sh [provider] checktoken```
+5. (optional) run 
+```ptcmerlin.sh [provider] check_overdue```
 
 # Usage
 You can manually trigger a check and block/unblock upon overdue tasks with
