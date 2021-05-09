@@ -59,3 +59,7 @@ just run ```ptcmerlin.sh``` on it's own to see the other options
 * See the documentation for the rtm and quire to find out how to get api keys - they need to be requested.
 * You can only use one third party task management system at a time! If you try using more than one, tasks could be overdue in one but not in the other, causing unexpected blocking or unblocking results
 * keep your cfg files safe! They contain api credentials! 
+
+# Known Issues
+
+* Sometimes when tasks are marked as complete by another user, they don't seem to actually mark as completed according to the owner of the list! Almost immediately when the list owner opens the app, the tasks can be seen to change to complete. This means that, even though a user sees a task as complete, the api query still show it open and blocking can be applied unexpectedly.
